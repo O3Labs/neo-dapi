@@ -1,7 +1,7 @@
 {
   "name": "neo-dapi",
-  "version": "1.0.3",
-  "description": "NEO dAPI",
+  "version": "2.0.3",
+  "description": "NEO dAPI - NEP12",
   "main": "./lib/neo-dapi.min.js",
   "types": "./lib/index.d.ts",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/O3Labs/o3-dapi.git"
+    "url": "git+https://github.com/O3Labs/neo-dapi.git"
   },
   "author": "Nick Fujita",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/O3Labs/o3-dapi/issues"
+    "url": "https://github.com/O3Labs/neo-dapi/issues"
   },
-  "homepage": "https://github.com/O3Labs/o3-dapi/tree/master/packages/neo-dapi",
+  "homepage": "https://github.com/O3Labs/neo-dapi",
   "devDependencies": {
     "ts-loader": "5.2.2",
     "tslint": "5.11.0",
@@ -33,8 +33,7 @@
     "web3"
   ],
   "dependencies": {
-    "o3-dapi-core": "^0.3.7",
-    "o3-dapi-neo": "^0.4.2",
-    "o3-dapi-neoclient": "^0.0.3"
+    "o3-dapi-core": "^0.3.13",
+    "o3-dapi-neo": "^0.6.0"
   }
 }
