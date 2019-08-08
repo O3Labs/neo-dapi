@@ -1,14 +1,14 @@
 # neo-dapi
 A standalone bundle for interfacing with the NEO blockchain
 
-## Usage
+## Installation
 
 In a browser - cdn [![](https://data.jsdelivr.com/v1/package/npm/neo-dapi/badge)](https://www.jsdelivr.com/package/npm/neo-dapi)
 ```
-<script src="https://cdn.jsdelivr.net/npm/neo-dapi/lib/neo-dapi.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/neo-dapi@2.0.3/lib/neo-dapi.min.js"></script>
 ```
 ```
-window.o3dapiOntClient
+window.neoDapi
 ```
 
 Install via npm [![npm version](https://badge.fury.io/js/neo-dapi.svg)](https://badge.fury.io/js/neo-dapi)
@@ -26,7 +26,9 @@ var neoDapi = require('neo-dapi');
 import neoDapi from 'neo-dapi';
 ```
 
-## Example
+## Usage Example
+
+The following is an example of requesting the balances for a specific address.
 ```
 import neoDapi from 'neo-dapi';
 
@@ -36,3 +38,8 @@ neoDapi.getBalance({
 })
 .then(balances => console.log(balances));
 ```
+
+## Documentation
+
+
+
