@@ -1,6 +1,6 @@
 {
   "name": "neo-dapi",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "NEO dAPI - NEP12",
   "main": "./lib/neo-dapi.min.js",
   "types": "./lib/index.d.ts",
@@ -34,6 +34,6 @@
   ],
   "dependencies": {
     "o3-dapi-core": "^0.3.13",
-    "o3-dapi-neo": "^0.6.0"
+    "o3-dapi-neo": "^0.6.1"
   }
 }
