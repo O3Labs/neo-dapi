@@ -5,7 +5,7 @@ A standalone bundle for interfacing with the NEO blockchain
 
 In a browser - cdn [![](https://data.jsdelivr.com/v1/package/npm/neo-dapi/badge)](https://www.jsdelivr.com/package/npm/neo-dapi)
 ```
-<script src="https://cdn.jsdelivr.net/npm/neo-dapi@2.0.3/lib/neo-dapi.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/neo-dapi@2.0.4/lib/neo-dapi.min.js"></script>
 ```
 ```
 window.neoDapi
