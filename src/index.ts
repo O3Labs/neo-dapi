@@ -11,7 +11,7 @@ const {
   setNodeJSOverrides,
 } = o3dapi;
 
-export default {
+const neoDapiInstantance = {
   ...o3dapi.NEO,
   utils,
   openO3,
@@ -19,3 +19,11 @@ export default {
   setReactNativeOverrides,
   setNodeJSOverrides,
 };
+
+export default {
+  ...neoDapiInstantance,
+  NEO: {
+    ...neoDapiInstantance,
+    EVENT: neoDapiInstantance.Constants.EventName
+  }
+}
